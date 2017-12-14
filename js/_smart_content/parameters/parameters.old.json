@@ -1,0 +1,32 @@
+{
+        "fm_campaign_id" : "fgdfg54fd5g4",
+        "fm_id": "5sd4f5sd4fd5s4f",
+        "fm_name": "Apidra Long Flow",
+        "fm_version": {
+           "fm_version_id": 1,
+           "fm_version_export_date": null
+        },
+        "fm_module" : {
+            "fm_lastcallreport_calldata": true,
+            "fm_lastcallreport_survey": true,
+            "fm_training_mode": false,
+            "fm_validation_mode": false,
+            "fm_save_for_later_mode" : false
+        },
+        "fm_sequence_info": {
+            "fm_seq_id": null,
+            "fm_seq_version": {
+               "fm_seq_version_id": 1,
+               "fm_seq_version_creation_date": null
+            }
+        },
+        "fm_none_clm_produts": ["Amaryl","Apidra","Lantus","Nasacort","Rinagel"],
+        "fm_content_recommandations":{
+            "Apidra": {
+                "category":["efficacy","posologie","patient case","epidemiology","study","mechanism of action"]
+            },
+            "Lantus": {
+                "category":["efficacy","posologie","patient case","epidemiology","study","mechanism of action"]
+            }
+        }
+}

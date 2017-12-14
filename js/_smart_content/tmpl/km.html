@@ -1,0 +1,25 @@
+<div id="sm_km">
+    <div class="close" onclick='MENU.handle_event.hide.km()'>CLOSE</div>
+    <div class='col-md-4'>
+        <label for="sm_km_mail">
+           Mail:
+           <input id="sm_km_mail" type="text" value="{mail}"/>
+        </label>
+
+        <label for="sm_km_phone">
+           Tel:
+           <input id="sm_km_phone" type="text" value="{phone}"/>
+        </label>
+
+    </div>
+    <div class='col-md-4'>
+        <h2>Last call</h2>
+        <div class='sm_km_bloc_presentation'>
+            {calls}
+        </div>
+    </div>
+    <div class='col-md-4'>
+        <h2>Questions answered</h2>
+        {questionsAnswered}
+    </div>
+</div>

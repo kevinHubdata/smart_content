@@ -1,0 +1,41 @@
+<!-- next call prepapration -->
+<div id="sm_ncp" data-prevent-tap="true">
+       <h1>next call preparation</h1>
+           <div id="ncp__lastcallinfos">
+                <div id="ncp__lci_profil" class="{gender}">
+                    <div id="ncp__know_more" onclick="LCR.know_more()"></div>
+                </div>
+                <div id="ncp__hcp_infos">
+                    <span class="ncp__lci_doctor">{hcp}</span>
+                    <span class="ncp__lci_speciality">Speciality: {speciality}</span>
+                    <span class="ncp__lci_potential">Potential: {potential}</span>
+                    <span class="ncp__lci_segment">Segment: {segment}</span>
+                </div>
+            </div>
+       <h2 class="ncp__enrich">enrich your hcp profile</h2>
+       <div id="ncp__enrich_profil">    
+                {questions}
+       </div>
+       <h2 class="ncp__call_preparation">call preparation</h2>
+       <div class="ncp__call_preparation_sub">Disussed today</div>
+       <div id="ncp__discussed_today">
+          <div class="col-sm-2 left">
+              {discussed_today}
+          </div>
+          <div class="col-sm-6 right">
+            <h2>Have you discussed any other products ?</h2>
+            <div id="ncp__other_products">
+               {other_products}
+            </div>
+            <div id="ncp__other_freetext">
+              <span>Others</span>
+              <input type="text">
+            </div>
+          </div>
+       </div>
+       <h2 class="ncp__content_recomandations">YOUR CONTENT RECOMMANDATIONS FOR THE NEXT CALL</h2>
+       <div id="ncp__recommandation">
+            {recommandations}
+       </div>
+       <div id="ncp__endCall" endCall></div>
+    </div>

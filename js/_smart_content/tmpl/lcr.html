@@ -1,0 +1,46 @@
+
+<!-- template last call report-->
+<div id="sm_lcr" data-prevent-tap="true">
+    <h1>last call report</h1>
+    <div id="lcr__lastcallinfos">
+        <div id="lcr__lci_profil" class="{gender}">
+            <div id="lcr__know_more" onclick="MENU.know_more()"></div>
+        </div>
+        <div id="lcr__hcp_infos">
+            <span class="lcr__lci_doctor">{hcp}</span>
+            <span class="lcr__lci_speciality">Speciality: {speciality}</span>
+            <span class="lcr__lci_potential">Potential: {potential}</span>
+            <span class="lcr__lci_segment">Segment: {segment}</span>
+        </div>
+        <div id="lcr__call_infos">
+            <span>Last call date: <b>{lastcalldate}</b></span>
+            <span>By: <b>{reps}</b></span>
+            <!-- <span>Presentation displayed: <b>{times_displayed}</b></span> -->
+        </div>
+        <div id="status">
+            <div class="digital_interest">
+                <div>digital interest</div>
+                <div><span {digitalInterest}></span></div>
+            </div>
+            <div class="brand_loyalty">
+                <div>brand loyalty</div>
+                <div><span {brandLoyalty}></span></div>
+            </div>
+            <div class="presentation_interest">
+                <div>presentation interest</div>
+                <div><span {presentationInterest}></span></div>
+            </div>
+        </div>
+    </div>
+    <h2 class="lcr__ltd">last time discussion</h2>
+    <div id="lasttimediscusion">
+        {presentation}
+    </div>
+    <h2 class="yourcontent">your content recommandations for this call</h2>
+    <div id="recomanded">
+        {recomanded}
+    </div>
+    <div id="comments"><h4>Comments:</h4>{comments}</div>
+    <div id="startCall" startCall>
+    </div>
+</div>

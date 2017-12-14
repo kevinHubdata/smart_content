@@ -1,0 +1,33 @@
+<!-- template menu -->
+<div id="sm_menu" data-prevent-tap="true">
+      <div id="menu__btn_header"></div>
+      <h2 class="functionalities">functionalities</h2>
+      <div id="menu__btn_postcall" onclick="MENU.handle_event.show.ncp()">postcall</div>
+      <div id="menu__btn_cancel" onclick="EL.cancel()">cancel</div>
+      <h2 class="call_information">call information</h2>
+      <div id="menu__lci">
+        <div id="menu__lci_profil" class="{gender}"></div>
+        <div id="menu__lci_know_more" onclick="MENU.handle_event.show.km()"></div>
+        <div id="menu__lci_doctor"><span>{hcp}</span></div>
+        <span id="menu__lci_speciality">Speciality: {speciality}</span>
+        <span id="menu__lci_potential">Potential: {potential}</span>
+        <span id="menu__lci_segment">Segment: {segment}</span>
+        <div id="menu__lci_footer">
+            <div id="menu__lci_lastcalldate">
+              <span>Last call date: </span>
+              <span id="menu__lci_date">{lastcalldate}</span>
+            </div>
+            <div id="menu__lci_by_reps">
+              <span>by: </span>
+              <span id="menu__lci_reps">{reps}</span>
+            </div>
+        </div>
+      </div>
+      <div id="menu__btn_lastcallreport" onclick="MENU.handle_event.show.lcr()">last call report</div>
+      <div id="menu__btn_nextcallpreparation" onclick="MENU.handle_event.show.ncp()">
+        <span>next call</span>
+        <span>preparation</span>
+      </div>
+      <div id="menu_infos" onclick="MENU.handle_event.show.infos()"></div>
+      <div id="menu__btn_close" onclick="MENU.handle_event.hide.menu()"></div>
+  </div>

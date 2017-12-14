@@ -1,0 +1,123 @@
+{
+    "data": [
+      {
+          "type": "PUT or GET",
+          "put_date": "17/11/16 18:03:07 GMT+0200",
+          "get_date": "17/11/16 18:03:07 GMT+0200",
+          "call": {
+              "sm_callid": "uniq id",
+              "crm_v_callid": null,
+              "crm_mv_closedType": "postcall",
+              "crm_mv_is_preview": false,
+              "date": {
+                  "dev_start_date": "2017/10/04 18:03:07 GMT+0200",
+                  "crm_mv_start_date": "2017/10/04 18:03:07 GMT+0200",
+                  "dev_end_date": "2017/10/04 18:15:07 GMT+0200"
+              }
+          },
+          "device": {
+              "location": {
+                  "dev_longitude": null,
+                  "dev_latitude": null
+              },
+              "dev_userAgent": "Mozilla\/5.0 (iPad; U; CPU iPad OS 4_3 like Mac OS X; en-us) AppleWebKit\/534.32 (KHTML, like Gecko) Mobile\/8F190 Version\/4.2.0 Safari\/528.16",
+              "dev_language": "FR-fr",
+              "dev_orientation": "landscape",
+              "crm_m_rotation_blocked": "false",
+              "crm_m_cache_memory_warning": true,
+              "dev_local_storage_capacity": 4800,
+              "dev_local_storage_total_call": 1,
+              "dev_local_storage_total_lcr": 1
+          },
+          "reps": {
+              "crm_v_id": null,
+              "crm_mv_firstname": " Vince",
+              "crm_mv_lastname": "CARTER_085UK"
+          },
+          "hcp": [{
+              "id": "70000043530063",
+              "crm_onekey": "WUKM00021591",
+              "crm_firstname": "Tabassan",
+              "crm_lastname": "Abbas-Wright",
+              "crm_email": "tabassa.abbas-wright@yahoo.com",
+              "crm_speciality": "0471",
+              "crm_segmentation": "Potential",
+              "crm_addresses": [{
+                  "addressid": "70000043529111",
+                  "line1": "Pine Street",
+                  "city": "London",
+                  "state": "018Y",
+                  "postalarea": "EC1R 0LP",
+                  "external_id": "WUK00495781774"
+              }]
+          }]
+      }, 
+      {
+          "presentation": {
+              "fm_presentation_id": "uniq id",
+              "fm_presentation_version_id": "uniq id",
+              "crm_mv_name": "Comigral_SC",
+              "crm_mv_validation_code": null,
+              "crm_mv_order": "0",
+              "crm_m_link_thumbnail": "\/Presentations\/7005724002798426\/200x150.jpg",
+              "fm_thumbnail": "base64",
+              "date": {
+                  "crm_mv_start_date": "15/11/04 17:03:07 GMT+020",
+                  "dev_start_date": "15/11/04 17:03:07 GMT+020",
+                  "dev_end_date": "15/11/04 17:23:07 GMT+020"
+              },
+              "crm_mv_survey": [{
+                  "fm_crm_survey_id": "jbdssbhfvsdfv",
+                  "fm_crm_answer": "Yes"
+              }]
+          },
+          "sequence": {
+              "crm_mv_seq_name": "Comigral_smart_content",
+              "crm_m_seq_parameters_id": "MONO_1707_Dev_GLO_Comigral_1_20170727",
+              "fm_seq_id": "uniq id",
+              "fm_seq_version": "uniq id",
+              "crm_mv_seq_feedback": "POSI or NEG or NEUTRAL",
+              "screen": [{
+                  "fm_screen_id": "uniq id",
+                  "crm_mv_name": "page-ID",
+                  "crm_mv_start": "15/11/04 17:23:07 GMT+020",
+                  "crm_m_keymessage_category": null,
+                  "sm_pdf": [{
+                       "fm_name": "pdf01",
+                       "sm_duration": "76786786",
+                  },{
+                       "fm_name": "pdf02",
+                       "sm_duration": "76786786",
+                  }],
+                  "sm_feedback": "POSI or NEG or NEUTRAL",
+                  "sm_reference":["1500","4500"],
+                  "sm_popup": [{
+                       "fm_name": "popup01",
+                       "sm_duration": "76786786",
+                  },{
+                       "fm_name": "popup02",
+                       "sm_duration": "76786786",
+                  }],
+                  "sm_animation": [{
+                       "fm_name": "graph5",
+                       "sm_duration": 800, 
+                       "sm_trigger": "AUTO"
+                  }]
+              }]
+          },
+          "logs": [{
+              "Error hcp segmentation": {
+                  "line": "71",
+                  "column": "54",
+                  "sourceURL": "http:\/\/sm.flowmaker.io\/smart_content\/current\/modules\/module-hcp.js"
+              }
+          }, {
+              "Error hcp potential": {
+                  "line": "65",
+                  "column": "54",
+                  "sourceURL": "http:\/\/sm.flowmaker.io\/smart_content\/current\/modules\/module-hcp.js"
+              }
+          }]
+      }
+    ]
+}

@@ -1,0 +1,441 @@
+ [{
+     "client": {
+         "company": {
+             "fm_company_id": "uniq id",
+             "fm_company_name": "Merck",
+             "fm_region_list": {
+                 "EU": "Europe",
+                 "AF": "Africa",
+                 "AS": "Asia"
+             },
+             "fm_country_list": {
+                 "FR": "France",
+                 "GB": "United Kingdom",
+                 "BE": "Belgium"
+             },
+             "fm_bu_list": {
+                 "DIA": "Diabete",
+                 "CAR": "Cardiovascular",
+                 "OTC": "OTC",
+                 "PAI": "Pain"
+             },
+             "fm_fm_access_date": "2017/10/01 18:03:07 GMT+0200",
+             "fm_sm_access_date": "2017/10/01 19:03:07 GMT+0200",
+             "fm_product_list": {
+                 "COM": "Comigral",
+                 "MAV": "Mavencad",
+                 "REB": "Rebif",
+                 "GLU": "Glucophage",
+                 "JAN": "Januvia",
+                 "LEV": "Levothyrox"
+             },
+             "fm_category_list": {
+                 "cat1": "efficacy",
+                 "cat2": "posologie",
+                 "cat3": "epidemilogie"
+             },
+             "fm_sellingstep_list": [{
+                 "id": "sp1",
+                 "order": "1",
+                 "name": "customname"
+             }],
+             "fm_specialty_list": {
+                    "spe1":{
+                       "master_name": "cardiologist",
+                       "trad_name": "cardiologiste",
+                       "mi_code": null
+                    },
+                   "spe2":{
+                       "master_name": "diabetologist",
+                       "trad_name": "diabetologiste",
+                       "mi_code": null
+                   }
+             },
+             "fm_lcr_survey_level_list": [{
+                 "name": "HCP",
+                 "id": "St1",
+                 "level": "1"
+             }, {
+                 "name": "COMPANY",
+                 "id": "St2",
+                 "level": "2"
+             }]
+         },
+         "user": {
+             "fm_user_id": "4",
+             "fm_user_name": "julien.meichler",
+             "fm_firstname": "julien",
+             "fm_lastname": "meichler",
+             "fm_mail": "julien.meichler@hubdata.fr",
+             "fm_account_type": "ADMIN",
+             "fm_spoken_language": "FR",
+             "fm_position_name": "PM",
+             "fm_user_country": "FR"
+         }
+     },
+     "project": {
+         "fm_project_id": "uniq id",
+         "fm_create_date": "2017/10/04 18:03:07 GMT+0200",
+         "fm_project_product_id": "COM",
+         "fm_project_product_name": "COMIGRAL",
+         "fm_project_bu_id": "OTC",
+         "fm_project_bu_name": "Pain",
+         "fm_project_country_id": "FR",
+         "fm_project_country_name": "France",
+         "fm_campaign_id": "uniq id",
+         "fm_camapaign_name": "OTC basket promotion 2017",
+         "fm_source": "FM",
+         "fm_authorized_users": ["4", "2", "1"],
+         "clm_id": null,
+         "clm_name": null,
+         "presentation": {
+             "fm_presentation_id": "uniq id",
+             "fm_presentation_spoken_language": "FR",
+             "fm_presentation_channel": "EDE",
+             "fm_presentation_reps_team_configuration": [{
+                 "fm_reps_team_name": null,
+                 "fm_product_portfolio": ["productID", "productID", "productID"],
+                 "fm_product_position": {
+                     "P1": "productID",
+                     "P2": "productID",
+                     "P3": "productID"
+                 },
+                 "fm_reps_quantity": 10,
+                 "fm_average_call_day": 9,
+                 "fm_visited_hcp_id": ["spe1", "spe2"]
+             }],
+             "fm_presentation_origin": "NEW or LOC or MASTER",
+             "fm_presentation_name": "1709_MER_FR_OTC_COM",
+             "fm_presentation_thumbnail": "base64",
+             "fm_presentation_deployement_date": "2017/11/01 18:03:07 GMT+0200",
+             "fm_presentation_expiration_date": "2018/10/04 18:03:07 GMT+0200",
+             "fm_presentation_approval_code": null,
+             "fm_presentation_custom_name": "Comigral flow introduction",
+             "fm_presentation_product_id": "productID",
+             "fm_presentation_product_name": "Comigral",
+             "fm_presentation_bu_id": "buID",
+             "fm_presentation_bu_name": "Pain",
+             "fm_presentation_crm_id": "crmID",
+             "fm_presentation_crm_name": "MI",
+             "fm_presentation_export_type": "MONO",
+             "fm_presentation_device_id": "deviceID",
+             "fm_presentation_device_name": "Ipad",
+             "fm_presentation_custom_marketer_message": "Good luck with this presentation fill free to check your reps speech in the training functionality.",
+             "fm_presentation_smpc": [],
+             "clm_presentation_id": null,
+             "clm_presentation_name": null,
+             "fm_version": {
+                 "fm_version_id": "uniq id",
+                 "fm_version_generate_date": "2018/10/04 18:03:07 GMT+0200",
+                 "fm_version_export_date": "2018/10/04 18:04:07 GMT+0200",
+                 "fm_version_flow_count": "1",
+                 "fm_sm_lcr_active": true,
+                 "fm_sm_update": true
+             },
+             "crm_mv_survey": []
+         },
+         "sequence": [{
+             "fm_sequence_id": "uniq id",
+             "fm_sequence_name": "1709_MER_FR_OTC_COM_1507131656",
+             "fm_sequence_version": "uniq id",
+             "fm_sequence_is_shared": false,
+             "flows": [{
+                 "id": "flow1",
+                 "custom_name": null,
+                 "fm_flows_thumbnail": "base64",
+                 "product_id": ["productID"],
+                 "marketers_custom_message": null,
+                 "screen": [{
+                     "fm_screen_id": "uniq id",
+                     "fm_origin_version": "uniq id",
+                     "fm_screen_name": "Home",
+                     "fm_refer_to": null,
+                     "fm_position_id": "1_00.00",
+                     "fm_level_importance": "HIGH LOW STANDARD",
+                     "fm_chapter": "Home",
+                     "fm_sub_chapter": null,
+                     "fm_thumbnail": "base 64",
+                     "fm_datatrackname": "1_Home_1",
+                     "fm_category_id": "catedoryID",
+                     "fm_key_message": "Erase the word pain from your life",
+                     "fm_objective": null,
+                     "fm_selling_steps_id": null,
+                     "fm_custom_data": null,
+                     "fm_product_id": "productID",
+                     "fm_reps_speech": null,
+                     "fm_popup": [{
+                             "fm_name": "poup_name_1",
+                             "fm_category": "cat1",
+                             "custom_message": "freetext"
+                         },
+                         {
+                             "fm_name": "poup_name_2",
+                             "fm_category": "cat1",
+                             "custom_message": "freetext"
+                         }
+                     ],
+                     "fm_flip_flap": [{
+                         "fm_flip_name": "flip_name",
+                         "fm_flip_category": "cat2",
+                         "fm_flip_custom_message": "freetext",
+                         "fm_flap_name": "flip_name",
+                         "fm_flap_category": "cat3",
+                         "fm_flap_custom_message": "freetext"
+                     }],
+                     "fm_pdf": [{
+                         "fm_name": null
+                     }],
+                     "fm_reference": false,
+                     "fm_video": [{
+                         "fm_name": null,
+                         "fm_total_duration": null
+                     }],
+                     "fm_animation": [{
+                         "fm_name": "graph5",
+                         "fm_duration": 500,
+                         "fm_trigger": "AUTO or TAP",
+                         "fm_id": "1",
+                         "fm_type": "graphc",
+                         "fm_order": "500"
+                     }]
+                 }]
+             }]
+         }],
+         "flows": {
+             "flow1": ["fm_screen_id", "fm_screen_id"]
+         },
+         "last_call_report": {
+             "general_settings": {
+                 "module_lcr": true,
+                 "survey_module": true,
+                 "survey_copy_in_crm": true,
+                 "sharing_hcp_info_company_level": true,
+                 "sharing_hcp_infos_bu_level": true,
+                 "survery_per_call_quantity": "4",
+                 "behavior": {
+                     "trigger": {
+                         "opening_button": "burger or top_bar",
+                         "top_bar_mi_menu": "enabled/disabled",
+                         "opening_smart_content": "auto or tap"
+                     },
+                     "menu": {
+                         "section": {
+                             "hcp": {
+                                 "bloc_infos": "display/hide",
+                                 "bloc_survey": "display/hide"
+                             },
+                             "button": {
+                                 "add_customer": "display/hide",
+                                 "cancel": "display/hide",
+                                 "postcall": "display/hide",
+                                 "next_call_preparation": "display/hide"
+                             }
+                         }
+                     },
+                     "smart_rep_report": {
+
+                         "status": "enabled/disabled",
+                         "marketing_message": "enabled/disabled",
+                         "marketing_message_duration": "7",
+                         "section": {
+                             "last_time_discussion": {
+                                 "status": "enabled/disabled",
+                                 "popup_infos": "display/hide",
+                                 "thumbnail": "display/hide",
+                                 "main_topics": "display/hide",
+                                 "title": ["flow_name", "product_name"]
+                             },
+                             "content_recommandations": {
+                                 "status": "enabled/disabled",
+                                 "popup_infos": "display/hide",
+                                 "thumbnail": "display/hide",
+                                 "main_topics_list": "display/hide",
+                                 "title": ["flow_name", "product_name"]
+                             },
+                             "comments": {
+                                 "status": "enabled/disabled"
+                             }
+                         }
+                     },
+                     "next_call_preparation": {
+
+                         "status": "enabled/disabled",
+                         "section": {
+                             "survey": {
+                                 "status": "enabled/disabled"
+                             },
+                             "call_preparation": {
+                                 "discussed_today": {
+                                     "status": "enabled/disabled",
+                                     "title": ["flow_name", "product_name"]
+                                 },
+                                 "non_digital_content": {
+                                     "status": "enabled/disabled"
+                                 }
+                             },
+                             "content_recommandations": {
+                                 "status": "enabled/disabled",
+                                 "talk_about": "display/hide"
+                             },
+                             "comments": {
+                                 "status": "enabled/disabled"
+                             }
+                         }
+                     },
+                     "leave-call": "NCP or MENU"
+                 },
+                 "wording": {
+
+                     "menu": {
+
+                         "hcp": {
+                             "last_call_date": "Last call date",
+                             "by": "by",
+                             "digital_interest": "DIGITAL INTEREST",
+                             "brand_loyalty": "BRAND LOYALTY",
+                             "presentation_interest": "PRESENTATION INTEREST"
+                         },
+                         "last_call": {
+                             "smart_rep_report": "SMART REP REPORT"
+                         },
+                         "button": {
+                             "add_customer": "Add customer",
+                             "cancel": "Cancel",
+                             "postcall": "Postcall",
+                             "next_call_preparation": "Next call preparation",
+                             "back": "BACK"
+                         }
+                     },
+                     "next_call_preparation": {
+
+                         "surveys": {
+                             "enrich_your_hcp_profile": "Enrich your hcp profile"
+                         },
+                         "call_preparation": {
+                             "call_preparation": "Call preparation",
+                             "discussed_today": "Discussed today",
+                             "others": "Others",
+                             "please_type_here": "Please type here",
+                             "have_you_discussed_any_other_product": "Have you discussed any other product?"
+                         },
+                         "content_recommandations": {
+                             "your_content_recommandations_for_next_call": "Your content recommandations for next call"
+                         },
+                         "comments": {
+                             "add_comments": "Add comments",
+                             "please_type_here": "Please type here"
+                         },
+                         "button": {
+                             "postcall": "Postcall"
+                         }
+                     },
+                     "smart_rep_report": {
+                         "last_time_discussion": {
+                             "last_time_discussion": "Last time discussion",
+                             "main_topics_discussed": "Main topics discussed",
+                             "non_digital": "Non digital"
+                         },
+                         "content_recommandations": {
+                             "content_recommandations_for_this_call": "Content recommandations for this call",
+                             "focus_on": "Focus on",
+                             "to_keep_for_a_next_time": "To keep for a next time"
+                         },
+                         "button": {
+                             "comments": "comments"
+                         }
+                     }
+                 }
+             },
+             "questions_list": {
+
+                 "Q00": {
+                     "id": "Q00",
+                     "question_name": "Comments?",
+                     "type": "textarea",
+                     "answer_value": null,
+                     "level_id": "levelID",
+                     "sub_level_id": null,
+                     "recurence": 0,
+                     "speciality_filter_id": [],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product": null,
+                     "conditions": [],
+                     "html": "<div sm_id='Q00' type='textarea'><h3>Comments?</h3><textarea></textarea></div>"
+                 },
+                 "Q01": {
+                     "id": "Q01",
+                     "question_name": "What is your HCP Gender ?",
+                     "answer_type": "button",
+                     "answer_value": null,
+                     "answers_id": {
+                         "Q01_a1": "Male",
+                         "Q01_a2": "Female"
+                     },
+                     "level_id": "levelID",
+                     "sub_level_id": null,
+                     "recurence": 0,
+                     "speciality_filter_id": [],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product": null,
+                     "conditions": [],
+                     "html": "<div sm_id='Q01' type='button'> <h3>What is your HCP Gender?</h3> <div class='ncp__enrich_profil_btn ncp__btn_left' sm_answer='Q01_a2'>Female</div><div class='ncp__enrich_profil_btn ncp__btn_right' sm_answer='Q01_a1'>Male</div></div>"
+                 },
+                 "Q02": {
+                     "id": "Q02",
+                     "question_name": "Assess your HCP loyalty",
+                     "answer_type": "cursor",
+                     "answer_value": null,
+                     "answers_id": null,
+                     "level_id": "levelID",
+                     "sub_level_id": null,
+                     "recurence": 0,
+                     "speciality_filter_id": [],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product": null,
+                     "conditions": [],
+                     "html": "<div sm_id='Q02'> <h3>Assess your HCP loyalty</h3><div class='default' id='ncp__slider_loyalty' slider step></div><div class='ncp__step_slider'><span>Your product</span><span>Neutral</span><span>Competitor</span></div></div>"
+                 },
+                 "Q03": {
+                     "id": "Q03",
+                     "question_name": "Digital interest",
+                     "answer_type": "cursor",
+                     "answer_value": null,
+                     "answers_id": null,
+                     "level_id": "levelID",
+                     "sub_level_id": null,
+                     "recurence": 0,
+                     "speciality_filter_id": [],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product": null,
+                     "conditions": [],
+                     "html": "<div sm_id='Q03'> <h3>Assess your HCP <br>Digital interest</h3> <div class='default' id='ncp__slider_digital_interest' slider step></div><div class='ncp__step_slider digital_interest'><span>Weak</span><span>Neutral</span><span>Strong</span></div></div>"
+                 },
+                 "Q04": {
+                     "id": "Q04",
+                     "question_name": "Hcp presentation interest ?",
+                     "answer_type": "cursor",
+                     "answer_value": null,
+                     "answers_id": null,
+                     "level_id": "levelID",
+                     "sub_level_id": null,
+                     "recurence": 0,
+                     "speciality_filter_id": [],
+                     "expiration_date": null,
+                     "weight": 6,
+                     "order": 2,
+                     "high_priority_order_product": null,
+                     "conditions": [],
+                     "html": " <div sm_id='Q04'> <h3>Hcp presentation interest ?</h3> <div class='default' id='ncp__slider_presentation_interest' slider step></div><div class='ncp__step_slider presentation_interest'><span>Weak</span><span>Neutral</span><span>Good</span></div></div>"
+                 }
+             }
+         }
+     }
+ }]

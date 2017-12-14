@@ -1,0 +1,1 @@
+/*<bloc15>*/$('[path="1_20.00"] .fade17').velocity({opacity:0},{duration: 1});var delay17 = setTimeout(function(){$('[path="1_20.00"] .fade17').velocity({opacity: 1},{duration: 500, display: "block"});},200);/*</endBloc>*/

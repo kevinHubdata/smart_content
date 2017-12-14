@@ -1,0 +1,138 @@
+
+
+{
+	"TRIGGER":{
+		"opening_button": "burger or top_bar",
+		"top_bar_mi_menu": "enabled/disabled",
+		"opening_smart_content": "auto or tap"
+	},
+	"MENU":{
+
+		"section":{
+			"hcp" : {
+				"bloc_infos": "display/hide",
+				"bloc_survey": "display/hide"
+		     },
+		     "button":{
+		     	"add_customer": "display/hide",
+		     	"cancel": "display/hide",
+		     	"postcall": "display/hide",
+		     	"next_call_preparation": "display/hide"
+		     }
+		}
+	},
+	"SMART-REP-REPORT":{
+
+		"status": "enabled/disabled",
+		"marketing_message": true,
+		"marketing_message_duration": "7",
+		"section":{
+			"last_time_discussion": {
+				"status": "enabled/disabled",
+				"popup_infos": "display/hide",
+				"thumbnail": "display/hide",
+				"main_topics": "display/hide",
+				"title":["flow_name","product_name"]
+			},
+			"content_recommandations": {
+				"status": "enabled/disabled",
+				"popup_infos": "display/hide",
+				"thumbnail": "display/hide",
+				"main_topics_list": "display/hide",
+				"title":["flow_name","product_name"]
+			},
+			"comments": {
+				"status": "enabled/disabled"
+			}
+		}
+	},
+	"NEXT-CALL-PREPARATION":{
+
+		"status": "enabled/disabled",
+		"section":{
+			"survey":{
+				"status": "enabled/disabled",
+			},
+			"call_preparation":{
+				"discussed_today":{
+					"status": "enabled/disabled",
+					"title":["flow_name","product_name"]
+				},
+				"non_digital_content":{
+					"status": "enabled/disabled",
+				}
+			},
+			"content_recommandations":{
+				"status": "enabled/disabled",
+				"talk_about": "display/hide"
+			},
+			"comments": {
+				"status": "enabled/disabled",
+			}
+		}
+	},
+	"LEAVE-CALL": "NCP or MENU"
+}
+
+"wording" : {
+
+	"MENU":{
+
+		"hcp":{
+			"last_call_date": "Last call date",
+			"by": "by",
+			"digital_interest": "DIGITAL INTEREST",
+			"brand_loyalty": "BRAND LOYALTY",
+			"presentation_interest": "PRESENTATION INTEREST",
+		},
+		"last_call":{
+			"smart_rep_report": "SMART REP REPORT",
+		},
+		"button":{
+			"add_customer": "Add customer",
+			"cancel": "Cancel",
+			"postcall": "Postcall",
+			"next_call_preparation": "Next call preparation",
+			"back": "BACK"
+		}	
+	},
+	"NEXT-CALL-PREPARATION":{
+
+		"surveys":{
+			"enrich_your_hcp_profile": "Enrich your hcp profile"
+		},
+		"call_preparation":{
+			"call_preparation": "Call preparation",
+			"discussed_today": "Discussed today",
+			"others": "Others",
+			"please_type_here": "Please type here",
+			"have_you_discussed_any_other_product": "Have you discussed any other product?"
+		},
+		"content_recommandations":{
+			"your_content_recommandations_for_next_call": "Your content recommandations for next call"
+		},
+		"comments":{
+			"add_comments": "Add comments",
+			"please_type_here": "Please type here"
+		},
+		"button":{
+			"postcall": "Postcall"
+		}
+	},
+	"SMART-REP-REPORT":{
+		"last_time_discussion":{
+			"last_time_discussion": "Last time discussion",
+			"main_topics_discussed": "Main topics discussed",
+			"non_digital": "Non digital"
+		},
+		"content_recommandations":{
+			"content_recommandations_for_this_call": "Content recommandations for this call",
+			"focus_on": "Focus on",
+			"to_keep_for_a_next_time": "To keep for a next time"
+		},
+		"button":{
+			"comments":"comments"
+		}
+	}
+
+}

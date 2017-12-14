@@ -1,0 +1,42 @@
+{
+    "Q0":{
+        "type":"textarea",
+        "frequence":0,
+        "answer":null,
+        "html":"<div sm_id='Q0' type='textarea'><h3>Comments?</h3><textarea></textarea></div>",
+        "question":"Comments?"
+    },
+    "Q1":{
+        "type":"button","frequence":1,"answer":null,"html":"<div sm_id='Q1' type='button'> <h3>What is your HCP Gender?</h3> <div class='ncp__enrich_profil_btn ncp__btn_left' sm_answer='female'>Female</div><div class='ncp__enrich_profil_btn ncp__btn_right' sm_answer='male'>Male</div></div>","question":"What is your HCP Gender?"
+    },
+    "Q2":{
+        "type":"cursor","frequence":1,"answer":null,"html":"<div sm_id='Q2'> <h3>Assess your HCP loyalty</h3> <div class='default' id='ncp__slider_loyalty' slider step></div><div class='ncp__step_slider'><span>Your product</span><span>Neutral</span><span>Competitor</span></div></div>","question":"Assess your HCP loyalty"
+    },
+    "Q4":{
+        "type":"button","frequence":1,"answer":null,"html":"<div sm_id='Q4'> <h3>Assess your HCP <br>Digital interest</h3> <div class='default' id='ncp__slider_digital_interest' slider step></div><div class='ncp__step_slider digital_interest'><span>Weak</span><span>Neutral</span><span>Strong</span></div></div>","question":"Digital interest"
+    },
+    "Q11":{
+        "type":"cursor","frequence":1,"answer":null,"html":" <div sm_id='Q11'> <h3>Hcp presentation interest ?</h3> <div class='default' id='ncp__slider_presentation_interest' slider step></div><div class='ncp__step_slider presentation_interest'><span>Weak</span><span>Neutral</span><span>Good</span></div></div>","question":"Hcp presentation interest ?"
+    },
+    "Q3":{
+        "type":"button","frequence":1,"answer":null,"html":"<div sm_id='Q3' type='button'> <h3>Does your HCP use paper or computer for his patiens records ?</h3> <div class='ncp__enrich_profil_btn ncp__btn_left' sm_answer='computer'>Computer</div><div class='ncp__enrich_profil_btn ncp__btn_right' sm_answer='paper'>Paper</div></div>","question":"Does your HCP use paper or computer for his patiens records?"
+    },
+    "Q5":{
+        "type":"dropdown","frequence":1,"answer":null,"html":"<div sm_id='Q5' type='dropdown'> <h3>Does your HCP go on Internet to find medical informations ?</h3> <select sm_answer> <option value='null'>...</option> <option value='yes'>Yes</option> <option value='no'>No</option> <option value='dontknow'>I don't know</option> </select> </div>","question":"Does your HCP go on Internet to find medical informations ?"
+    },
+    "Q6":{
+        "type":"cursor","frequence":1,"answer":null,"html":"<div sm_id='Q6'> <h3>Assess you HCP general interest for this campaign ?</h3> <div class='default' id='ncp__slider_generale_interest' slider step></div><div class='ncp__step_slider digital_interest'><span>Weak</span><span>Neutral</span><span>Strong</span></div></div>","question":"Assess you HCP general interest for this campaign ?"
+    },
+    "Q7":{
+        "type":"dropdown","frequence":1,"answer":null,"html":"<div sm_id='Q7' type='dropdown'> <h3>Does you HCP express any content request?</h3> <select sm_answer> <option value='null'>...</option> <option value='yes'>Yes</option> <option value='no'>No</option> <option value='dontknow'>I don't know</option> </select> </div>","question":"Does you HCP express any content request ?"
+    },
+    "Q8":{
+        "type":"dropdown","frequence":1,"answer":null,"html":"<div sm_id='Q8' type='dropdown'> <h3>Has you HCP already used your product ?</h3> <select sm_answer> <option value='null'>...</option> <option value='never'>Never</option> <option value='no'>No, but is intend to</option> <option value='hastriedonce'>Has tried once</option> <option value='oftenuseit'>Often use it</option> <option value='usemineexclusively'>Use mine exclusively</option> </select> </div>","question":"Has you HCP already used your product ?"
+    },
+    "Q9":{
+        "type":"dropdown","frequence":1,"answer":null,"html":"<div sm_id='Q9' type='dropdown'> <h3>Have you provide to your HCP some website access ?</h3> <select sm_answer> <option value='null'>...</option> <option value='yes'>Yes</option> <option value='no'>No</option> <option value='notmehereceivedsome'>Not me, he received some</option> </select> </div>","question":"Have you provide to your HCP some website access ?"
+    },
+    "Q10":{
+        "type":"cursor","frequence":1,"answer":null,"html":"<div sm_id='Q10'> <h3>Does you HCP dislike the iPad during the visit ?</h3> <div class='default' id='ncp__slider_dislike_ipad' slider step></div><div class='ncp__step_slider digital_interest'><span>Dislike</span><span>Neutral</span><span>Prefer iPad</span></div></div>","question":"Does you HCP dislike the iPad during the visit ?"
+    }
+}

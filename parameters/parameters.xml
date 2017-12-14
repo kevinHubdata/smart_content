@@ -1,0 +1,33 @@
+<Sequence Id="comigral_local" xmlns="urn:param-schema">
+    <CallDialog>
+        <Questions>
+            <Question id="Q0" text="Comments" type="TEXT" />
+            <Question id="Q1" text="What is your HCP Gender ?" type="TEXT"/>
+            <Question id="Q2" text="Assess your HCP loyalty ?" type="TEXT" />
+            <Question id="Q4" text="Assess your HCP Digital interest ?" type="TEXT" />
+            <Question id="Q11" text="Hcp presentation interest ?" type="TEXT" />
+            <Question id="Q3" text="Does your HCP use paper or computer for his patiens records ?" type="TEXT" />
+            <Question id="Q5" text="Does your HCP go on Internet to find medical informations ?" type="TEXT" />
+            <Question id="Q6" text="Assess you HCP general interest for this campaign ?" type="TEXT" />
+            <Question id="Q7" text="Does you HCP express any content request ?" type="TEXT" />
+            <Question id="Q8" text="Has you HCP already used your product ?" type="TEXT" />
+            <Question id="Q9" text="have you provide to your HCP some website access ?" type="TEXT" />
+            <Question id="Q10" text="Does you HCP dislike the iPad during the visit ?" type="TEXT" />
+        </Questions>
+    </CallDialog>
+    <Pages>
+        <Page pageid="1_Chapter10_1_" />
+        <Page pageid="1_Chapter20_1_" />
+        <Page pageid="1_Chapter30_1_" />
+        <Page pageid="1_Diagnosis_2_IDCM" />
+        <Page pageid="1_Chapter40_1_" />
+        <Page pageid="1_Comigral_2_MoA" />
+        <Page pageid="1_Chapter50_1_" />
+        <Page pageid="1_Efficacy_2_Comparison" />
+        <Page pageid="1_Chapter60_1_" />
+        <Page pageid="1_Chapter70_1_" />
+        <Page pageid="1_Chapter80_1_" />
+        <Page pageid="1_Chapter90_1_" />
+        <Page pageid="1_Patient_Services_2_" />
+    </Pages>
+</Sequence>
